@@ -15,6 +15,30 @@ npm install body-parser
 
 ```
 
+Install nodemon for automatically restarting the node application
+
+```
+npm install -g nodemon
+
+// -g flag activate it globally
+```
+
+For using nodemon
+- Make sure you configured
+```
+// Change in package.json
+
+"scripts": {
+    "start": "node app.js"
+  }
+
+//app.js may be in your case index.js
+```
+- run this command in root directory
+```
+nodemon
+```
+
 ## Notes:
 
 - res.download() //Download request:
