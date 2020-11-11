@@ -4,6 +4,15 @@ Install Express
 
 ```
 npm install express --save
+
+// in recent version no need to --save It saves automatically
+```
+
+Install Body Parsor
+
+```
+npm install body-parser
+
 ```
 
 ## Notes:
@@ -17,6 +26,7 @@ npm install express --save
 - res.sendStatus() //Error codes
 
 Status Codes
+
 ```
 200 Everything Okay
 403 Forbideen (NO acess)
